@@ -1,0 +1,14 @@
+<mat-sidenav-container>
+  <mat-sidenav #sidenav role="navigation">
+    <app-sidebar (sidenavClose)="sidenav.close()"></app-sidebar>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <app-navbar (sidenavToggle)="sidenav.toggle()"></app-navbar>
+    <main>
+      <router-outlet></router-outlet>
+      <button appBackto class="" (click)="backto()">
+        <mat-icon>arrow_back</mat-icon>
+      </button>
+    </main>
+  </mat-sidenav-content>
+</mat-sidenav-container>

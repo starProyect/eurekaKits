@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.controleContainer > *{
+    width: 100%;
+}
+.pointer {cursor: pointer;}
+.sizeLetter{
+    font-size: 2vw;
+}
+.sizeLetterPromoventa{
+    font-size: 4vw;
+}
+img {
+    width: 20vw;
+    height: 20vw;
+}
